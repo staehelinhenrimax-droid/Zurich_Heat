@@ -37,4 +37,4 @@ Stores all generated artifacts:
 
 
 ### Setup
-Use the Zurich_Heat.nc file to open up the datacube. Then you don't have to run the loop to open them all together. 
+Use the Zurich_Heat.nc file (in processed data) to open up the datacube. Then you don't have to run the loop to open them all together. 
