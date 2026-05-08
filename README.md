@@ -3,19 +3,6 @@ Analysis of changes in NDVI and Land Surface Temperature (LST) across Zurich Dis
 
 ## Project Structure
 
-Zurich_Heat/
-│
-├── Notebooks/
-│   └── Workflow.ipynb
-│
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-└── outputs/
-
----
-
 ### Notebooks
 Includes my main and only Notebook which is used for data cleaning, analysis and visualization
 ### 📁 data
