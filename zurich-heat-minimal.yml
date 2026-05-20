@@ -1,0 +1,34 @@
+name: zurich-heat
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.12
+
+  # Raster / spatial data
+  - rioxarray
+  - rasterio
+  - xarray
+  - xarray-spatial       # imported as xrspatial
+  - geocube
+
+  # Vector / geospatial
+  - geopandas
+  - cartopy
+
+  # Numerics & stats
+  - numpy
+  - pandas
+  - scipy
+
+  # Visualisation
+  - matplotlib
+  - holoviews
+  - geoviews
+  - hvplot
+  - cmcrameri            # scientific colormaps
+
+  # Notebook
+  - ipykernel
+  - jupyterlab
