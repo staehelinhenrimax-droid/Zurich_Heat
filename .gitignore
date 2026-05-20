@@ -1,0 +1,4 @@
+# Large data files
+data/raw/*.zip
+Notebooks/*.nc
+Notebooks/*.zarr
