@@ -5,9 +5,9 @@ To identify changes in NDVI and Land Surface Temperature (LST) across Zurich dis
 
 ## Data Sources
 * **Landsat 8 LST:** Annual summer summaries (30m resolution). Time period: Triannual from 1985-2024
-* **City Boundaries:** Vector neighborhood layers provided by the City of Zurich.
-* **District Single Household Income** Values provided by the City of Zurich. Time period: Annually: 1999-2023
-* **City Zone Polygon Data** Zoning regulations provided by the City of Zurich.
+* **City Boundaries:** Vector neighborhood layers provided by the City of Zurich. https://www.stadt-zuerich.ch/geodaten/download/Stadtkreise?format=10005
+* **District Single Household Income** Values provided by the City of Zurich. Time period: Annually: 1999-2023. https://www.stadt-zuerich.ch/de/politik-und-verwaltung/statistik-und-daten/daten/bevoelkerung/einkommen-und-vermoegen/steuerbares-einkommen.html
+* **City Zone Polygon Data** Zoning regulations provided by the City of Zurich. https://www.stadt-zuerich.ch/geodaten/download/Nutzungsplanung___kommunale_Bau__und_Zonenordnung__BZO_
 * *Note: Due to file size constraints, raw `.tif` files are not tracked in this repository. Instead use the "Landsat_Zurich.zarr" file found in the processed data folder. ".tif" files were originally downloaded from this Earth Engine script (https://code.earthengine.google.com/91d27c7125052b205c344843c20c4b1d) and were then compiled into one rioxarray dataset and saved as a .zarr file.*
 
 ## Reproducing the environment.
