@@ -19,4 +19,4 @@ This project requires multiple specific geospatial packages. To recreate the env
 ### Usage
 1. Download the data files from the repository. Place the city polygon/vector files into a 'data/raw/' folder and the satellite raster .zarr file into 'data/processed' folder.
 2. Create an 'outputs' folder for the exported maps and figures
-3. Run the entire "Workflow.ipynb" notebook from top to bottom. The important and data heavy trend maps will be exported to the "outputs" folder as html or png files.
+3. Run the entire "Workflow.ipynb" notebook from top to bottom. The important and data heavy trend maps will be exported to the "outputs" folder as html or png files. Open the html files directly to view the maps. 
