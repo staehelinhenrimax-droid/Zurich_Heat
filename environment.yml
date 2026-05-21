@@ -1,4 +1,4 @@
-name: zurich-heat
+name: zurich-heat-env
 channels:
   - conda-forge
   - defaults

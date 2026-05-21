@@ -3,3 +3,4 @@ data/raw/*.zip
 Notebooks/*.nc
 Notebooks/*.zarr
 data/processed/*.nc
+outputs/
